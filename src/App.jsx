@@ -1,12 +1,17 @@
-import { useState } from 'react'
 
-import './App.css'
+
+import Navbar from './Componets/NavBar'
 
 function App() {
-  return (
-    <>
 
-    </>
+  return (
+    <div >
+      <Navbar />
+
+      <div className="container mx-auto">
+       
+      </div>
+    </div>
   )
 }
 
